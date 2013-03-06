@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'displaycase' target in the 'displaycase' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#import<CoreData/CoreData.h>
+    #import <RestKit/RestKit.h>  
+    #import <RestKit/CoreData/CoreData.h>
+
+BOOL CollectionFlag;
+#endif
